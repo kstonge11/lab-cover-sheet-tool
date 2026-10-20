@@ -1,0 +1,9 @@
+# Requires Python 3.10 or 3.11 (pyqtdarktheme 2.x does not install on 3.12+)
+PyQt6
+pandas
+pyqtdarktheme==2.1.0
+openpyxl
+# openpyxl uses defusedxml automatically to block malicious XML in .xlsx files
+defusedxml
+pywin32; sys_platform == 'win32'
+pyinstaller>=6.0
